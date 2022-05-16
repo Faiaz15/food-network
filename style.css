@@ -1,0 +1,145 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0%;
+  padding: 10px 40px 0 40px;
+}
+/* nav {
+  margin-bottom: 20px;
+}
+nav a {
+  text-decoration: none;
+  padding: 0 20px 0 0;
+  color: black;
+  font-weight: normal;
+}
+nav a:hover {
+  color: black;
+  background-color: cyan;
+  padding: 4px 10px 4px 10px;
+  border-radius: 6px;
+} */
+.main-section {
+  margin: 30px 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-detail {
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  font-size: 48px;
+  margin: 0%;
+}
+
+h1 span {
+  color: mediumslateblue;
+}
+
+#head-detail {
+  font-size: 24px;
+  margin: 15px 0;
+}
+#order-button {
+  text-decoration: none;
+  font-size: 24px;
+  padding: 12px 24px;
+  margin: 15px 0;
+  border-radius: 35px;
+  border: 0;
+  color: white;
+  background-color: mediumslateblue;
+  display: inline-block;
+  position: relative;
+
+  box-shadow: 2px 2px 30px;
+}
+#order-button:hover {
+  cursor: pointer;
+}
+.main-detail img {
+  height: 450px;
+  width: 450px;
+  margin-left: 50px;
+}
+/* first section end */
+
+.recipe-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.recipe-head h1 {
+  font-size: 42px;
+}
+.recipe-head p {
+  font-size: 24px;
+  font-weight: 500;
+  width: 50%;
+  margin: 12px 134px;
+}
+
+.recipe-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.recipe-detail {
+  margin: 30px 134px 10px 134px;
+}
+.recipe-detail h1 {
+  font-size: 42px;
+}
+/* gallery */
+.gallery {
+  margin: 30px 0 0 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 6px;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  border-left: 6px solid mediumslateblue;
+  border-bottom: 6px solid mediumslateblue;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px rgb(0 0 0 / 10%);
+
+  padding: 20px;
+  margin: 10px 15px;
+}
+.item h3 {
+  font-size: 28px;
+  margin: 15px 0 10px 0;
+  font-weight: 700;
+}
+.item p {
+  font-size: 22px;
+  margin: 12px 0;
+  font-weight: 500;
+}
+.item img {
+  height: 319px;
+  width: 280px;
+  border-radius: 10px;
+}
+#view-button {
+  text-decoration: none;
+  font-size: 24px;
+  padding: 12px 24px;
+  margin: 15px 0;
+  border-radius: 35px;
+  border: 0;
+  color: white;
+  background-color: mediumslateblue;
+  display: inline-block;
+  position: relative;
+
+  box-shadow: 2px 2px 30px;
+}
+#order-button:hover {
+  cursor: pointer;
+}
